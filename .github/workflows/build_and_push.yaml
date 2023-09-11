@@ -3,8 +3,7 @@ name: Build server and nginx GROK docker images
 on:
   push:
     branches:
-      - deploy
-      - dev
+      - main
 
 jobs:
   build-and-push:
